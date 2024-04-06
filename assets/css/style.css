@@ -133,12 +133,14 @@ hero
   width: 100%;
   text-align: center;
 }
+
 .hero > video {
   position: absolute;
   z-index: 1;
   width: auto;
-  height: 105%;
+  height: 150%;
 }
+
 .hero-particles {
   position: absolute;
   z-index: 2;
@@ -276,6 +278,7 @@ card
   width: 100%;
   height: auto;
 }
+
 .card-info {
   padding: 5px 10px;
 }
@@ -454,7 +457,7 @@ footer
 }
 .footer-mapinfo{
   width: 40%;
-
+  text-align: center;
    }
 .footer-maplogo{
   font-size: 25px;
