@@ -45,6 +45,37 @@ button {
 }
 
 /* 
+hero
+ */
+ .hero {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.hero > strong {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  width: 100vw;
+  text-align: center;
+}
+.hero > video {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  height: 105%;
+}
+
+
+
+/* 
 section
  */
 .section {
@@ -266,3 +297,53 @@ works
 .works > img {
   margin: 0 25px;
 }
+
+
+/* 
+footer
+ */
+
+ .footer{
+  background-color: #333;
+  color: white;
+ }
+ .footer-map{
+  margin: 0;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.footer-map > iframe {
+  width: 60%;
+}
+.footer-mapinfo{
+  width: 40%;
+
+   }
+.footer-maplogo{
+  font-size: 25px;
+  font-size: bold;
+}
+
+.footer-maplogo{
+  fill: transparent;
+  margin-right: 10px;
+}
+
+.footer-mapaddress{
+  font-style: normal;
+     }
+
+.footer-mapaddress > a{
+  color: #fff;
+}
+ .footer-line{
+  border-color: #444;
+ }
+ .footer-copy{
+  display: block;
+  text-align: center;
+  padding: 10px;
+ }
