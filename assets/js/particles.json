@@ -8,10 +8,10 @@
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "random"
       },
       "shape": {
-        "type": "circle",
+        "type": "star",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -71,12 +71,12 @@
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": true,
+          "mode": "grab"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "bubble"
         },
         "resize": true
       },
