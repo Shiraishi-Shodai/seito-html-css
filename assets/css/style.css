@@ -235,7 +235,6 @@ treatment
 
 .treatment{
   display: flex;
-  position: relative;
   margin: 0;
   align-items: center;
 }
@@ -265,11 +264,11 @@ treatment
     margin: 0 0 20px;
     text-align: center;
   }
-  .treatment-caption{
-    /* width: 50%; */
-    padding-right: 15px;
-   
+  .treatment-image {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
+
 }
 
 /* 
@@ -454,7 +453,8 @@ input[type="range"]:focus::-webkit-slider-thumb {
 @media screen and (max-width: 768px){
   .select,
   .input,
-  .textarea {
+  .textarea,
+  .range {
     min-width: auto;
     width: 100%;
   }

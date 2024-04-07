@@ -2,6 +2,22 @@ particlesJS.load('particles-js', 'assets/js/particles.json', function() {
     console.log('callback - particles.js config loaded');
 });
 
+ScrollReveal().reveal('.section', { 
+    dilay: 1000, //アニメーションが始まるまでの時間
+//     viewOffset: {
+//         top: 10,
+//         right: 10,
+//         bottom: 10,
+//         left: 10,
+//   },
+    origin: 'bottom', //要素が出始める場所
+    distance: "50px", //要素を表示したときの移動距離
+    // easing: 'ease-in',
+    duration: 1500, // アニメーションの完了にかかる時間
+    viewFactor: 0.2, // 0~1,どれくらい見えたら実行するか
+    reset: true,   // 何回もアニメーション表示するか
+});
+
 
 // input:rangeに当てるCSSを設定
 document.addEventListener('DOMContentLoaded', ()=> {
