@@ -46,22 +46,25 @@
     <nav class="header-nav">
       <ul class="header-nav-list">
         <li class="header-nav-item">
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li class="header-nav-item">
-          <a href="#">Feature</a>
+          <a href="#treatment">Treatment</a>
         </li>
         <li class="header-nav-item">
-          <a href="#">Blog</a>
+          <a href="#feature">Feature</a>
         </li>
         <li class="header-nav-item">
-          <a href="#">Contact</a>
+          <a href="#blog">Blog</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
 
-    <section class="section">
+    <section class="section" id="about">
       <h1 class="section-headline">About</h1>
       <figure class="about">
         <img
@@ -85,7 +88,26 @@
       </figure>
     </section>
 
-    <section class="section section-secounday">
+    <section class="section" id="treatment">
+      <h1 class="section-headline">Treatment</h1>
+      <figure class="treatment">
+        <figcaption class="treatment-caption">
+          <h2 class="treatment-headline">How to use this web site ?</h2>
+          <p class="treatment-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iusto consequuntur
+            quas saepe qui error voluptatum magni, deserunt voluptatem, asperiores
+            modi nulla laboriosam odio, eaque cupiditate aliquid vitae sequi provident
+            <br>
+             necessitatibus laborum quibusdam. Quos dolore eaque odio nostrum architecto minus
+              tenetur dolores accusamus fuga, blanditiis voluptatibus molestiae dolor illo in?
+          </p>
+        </figcaption>
+        <img src="https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=600" alt="treatment-img">
+
+      </figure>
+    </section>
+
+    <section class="section section-secounday" id="feature">
       <h1 class="section-headline">Feature</h1>
 
       <ul class="grid grid-col-4">
@@ -160,7 +182,7 @@
       </ul>
     </section>
 
-    <section class="section">
+    <section class="section" id="blog">
       <h1 class="section-headline">Blog</h1>
 
       <ul class="grid grid-col-3">
@@ -277,7 +299,7 @@
       </div>
     </section>
 
-    <section class="section section-secounday">
+    <section class="section section-secounday" id="contact">
       <h1 class="section-headline">Contact</h1>
 
       <form action="" class="form">
@@ -330,6 +352,12 @@
             </th>
             <td>
               <textarea cols="30" rows="10" id="detail" class="textarea"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="range">degree of happiness</label></th>
+            <td>
+              <input type="range" name="" id="range" min="0" max="4" class="range">
             </td>
           </tr>
         </table>
