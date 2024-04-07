@@ -109,6 +109,9 @@ header
   .header {
     font-size: 12px;
   }
+  .header-nav-list{
+    font-size: 5px;
+  }
 }
 
 /* 
